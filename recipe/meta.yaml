@@ -1,5 +1,5 @@
 {% set name = "tfv_get_tools" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/tfv_get_tools-{{ version }}.tar.gz
-  sha256: 418db54f1deeb3e589291afd5a13335de273a8f945a2f12cbef4b1d87fc9d3ab
+  sha256: d51e5641524e990848d476e254bb2b0b67f3a76e17d22548e245df238ddb910b
 
 build:
   entry_points:
