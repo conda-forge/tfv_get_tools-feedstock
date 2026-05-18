@@ -1,5 +1,5 @@
 {% set name = "tfv_get_tools" %}
-{% set version = "0.2.7" %}
+{% set version = "0.2.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/tfv_get_tools-{{ version }}.tar.gz
-  sha256: 7879d9792835f36891a5a472a9e81e20f382eea7b85adb472629a20c1d576e19
+  sha256: 6c912952f69fde9dd989ec2aaa38f753ad77f6cef44a168456a5bf74a5c5dda6
 
 build:
   entry_points:
@@ -39,6 +39,7 @@ requirements:
     - pytmd >=2.1.7,<3
     - shapely >=2.0.6
     - geopandas >=1.0.1
+    - pandas <=2.3.3
 
 test:
   imports:
@@ -65,5 +66,5 @@ about:
 extra:
   recipe-maintainers:
     - TUFLOW-Support
-    - Mitch3007
+    - mitchellsmith-tuflow
     - Aewaterhouse
