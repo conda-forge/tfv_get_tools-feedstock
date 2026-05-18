@@ -39,6 +39,7 @@ requirements:
     - pytmd >=2.1.7,<3
     - shapely >=2.0.6
     - geopandas >=1.0.1
+    - pandas <=2.3.3
 
 test:
   imports:
@@ -65,5 +66,5 @@ about:
 extra:
   recipe-maintainers:
     - TUFLOW-Support
-    - Mitch3007
+    - mitchellsmith-tuflow
     - Aewaterhouse
