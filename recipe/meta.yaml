@@ -1,5 +1,5 @@
 {% set name = "tfv_get_tools" %}
-{% set version = "0.2.10" %}
+{% set version = "0.2.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/tfv_get_tools-{{ version }}.tar.gz
-  sha256: 7e51382075365d417c3bb91444c180531ebc5c7dbb34c2e86d862f38415366a6
+  sha256: 0a897dc632c58a996db9deca65a5a080612fa9eeb11c9602bacc966ab7ab1ca0
 
 build:
   entry_points:
